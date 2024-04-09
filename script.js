@@ -10,9 +10,9 @@ function emijirepit() {
     }
 
     let h2title = document.createElement("h2"); // Create an 'h2' element
-    h2title.textContent = "emijirepit"; // Set the text content of the 'h2' element
+ // Set the text content of the 'h2' element
 
-    const cardcontainer = document.querySelector("#card"); // Select the element with the id 'card' and assign it to 'cardcontainer'
+    const cardcontainer = document.querySelector("#emiji"); // Select the element with the id 'card' and assign it to 'cardcontainer'
     if (cardcontainer) { // Check if 'cardcontainer' is not null or undefined
         cardcontainer.appendChild(h2title); // Append the 'h2' element to the 'cardcontainer'
         cardcontainer.innerHTML += items; // Append the 'items' string to the 'cardcontainer'
@@ -29,7 +29,7 @@ function copyEmoji(emoji) {
 }
 
 function createEmojiButtons() {
-    const cardcontainer = document.querySelector("#card");
+    const cardcontainer = document.querySelector("#emiji");
     if (cardcontainer) {
         for (let i = 0; i < emiji.length; i++) {
             let button = document.createElement("button"); // Create a new button
