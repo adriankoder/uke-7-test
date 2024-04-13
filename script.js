@@ -1,6 +1,6 @@
 let condition = true;
 
-let smileys = ['😀', '😃', '😄', '😁', '😆'];
+const smileys = ['😀', '😃', '😄', '😁', '😆'];
 
 function copySmiley(event) {
     let button = event.target;
