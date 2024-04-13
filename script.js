@@ -4,7 +4,7 @@ const smileys = ['😀', '😃', '😄', '😁', '😆'];
 
 function copySmiley(event) {
     let button = event.target;
-    let emoji = button.textContent.replace('copy', '');
+    let emoji = button.textContent.replace('copy',);
 
     navigator.clipboard.writeText(emoji).then(function() {
     });
